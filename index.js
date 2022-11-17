@@ -2,7 +2,6 @@
 //imports
 const express = require('express'),
     morgan = require('morgan');
-    requi
 
 // app initialisation
 const app = express();
