@@ -1,8 +1,8 @@
 
 //imports
 const express = require('express'),
-
     morgan = require('morgan');
+    requi
 
 // app initialisation
 const app = express();
@@ -42,5 +42,5 @@ app.get('/movies', (req, res) => {
 
 //listener
 app.listen(8080, () => {
-    console.log('Your app is listening on port 8080.');
+    console.log('movie_app server is running on port 8080.');
 });
