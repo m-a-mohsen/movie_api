@@ -1,13 +1,27 @@
 
 //imports
 const express = require('express'),
-    morgan = require('morgan');
+    morgan = require('morgan'),
+    bodyParser = require('body-parser'),
+    uuid = require('uuid');
 
 // app initialisation
 const app = express();
 
 // data
-let topMovies = [
+let users = [
+    {
+        id: 1,
+        name : "Kim",
+        favoriteMovies: []
+    },
+    {
+        id: 2,
+        name : "Mac",
+        favoriteMovies: []
+    }
+]
+let movies = [
     {
         title: 'Die hard',
         releaseDate: 1990
@@ -25,6 +39,8 @@ let topMovies = [
 // Middleware
 app.use(express.static('public'));
 app.use(morgan('common'));
+app.use(bodyParser.json());
+
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Something broke!');
