@@ -1,0 +1,808 @@
+[
+    {
+        "title": "A Rainy Day in New York",
+        "rating": "PG-13",
+        "year": "2019",
+        "users_rating": "6.6",
+        "votes": "21,903",
+        "metascore": "44",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BODAwZDlhZjUtYzM2MS00MGVmLWFjNWMtODc5NjM2OTNkNjExXkEyXkFqcGdeQXVyMzIzNDU1NTY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Timoth\u00e9e Chalamet",
+            "Elle Fanning",
+            "Liev Schreiber",
+            "Suzanne Smith",
+            "Olivia Boreham-Wing",
+            "Ben Warheit",
+            "Griffin Newman",
+            "Selena Gomez",
+            "Gus Birney",
+            "Elijah Boothe",
+            "Will Rogers",
+            "Annaleigh Ashford",
+            "Jude Law",
+            "Frank Marzullo",
+            "Kirby Mitchell"
+        ],
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "tagline": null,
+        "description": "A young couple arrives in New York for a weekend where they are met with bad weather and a series of adventures.",
+        "directors": [
+            "Woody Allen"
+        ],
+        "runtime": "92 min",
+        "imdb_url": "https://www.imdb.com/title/tt7139936/"
+    },
+    {
+        "title": "Murder Manual",
+        "rating": "18",
+        "year": "2020",
+        "users_rating": "2.4",
+        "votes": "192",
+        "metascore": null,
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMDI5ZDU2OWItZTkyMy00NTYwLTgwNjktNGRjNjgxNzJkM2M1XkEyXkFqcGdeQXVyMjY5ODU3OA@@._V1_UY268_CR9,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Emilia Clarke",
+            "Hadley Fraser",
+            "Sylvia Panacione",
+            "Maria Olsen",
+            "Brittany Samson",
+            "Milly Sanders",
+            "Melanie Cruz",
+            "Van Hansis",
+            "Sally Hughes",
+            "Anthony Goss",
+            "Bryan Manley Davis",
+            "Sophie Knapp",
+            "Jeff Torres",
+            "Joe Reegan",
+            "Frida Rossi"
+        ],
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "tagline": "When it comes to murder, they wrote the book",
+        "description": "Creepy, terrifying chapters from our book of horror include a little girl's journey from a world of nightmares into the nightmare of reality, a gay couple's romantic getaway in Palm Springs...",
+        "directors": [
+            "Michael Escobedo",
+            "Kelly Hallmark",
+            "4 more credits"
+        ],
+        "runtime": "91 min",
+        "imdb_url": "https://www.imdb.com/title/tt12384178/"
+    },
+    {
+        "title": "Ferris Bueller's Day Off",
+        "rating": "PG-13",
+        "year": "1986",
+        "users_rating": "7.8",
+        "votes": "308,847",
+        "metascore": "61",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMDA0NjZhZWUtNmI2NC00MmFjLTgwZDYtYzVjZmNhMDVmOTBkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "German"
+        ],
+        "actors": [
+            "Matthew Broderick",
+            "Alan Ruck",
+            "Mia Sara",
+            "Jeffrey Jones",
+            "Jennifer Grey",
+            "Cindy Pickett",
+            "Lyman Ward",
+            "Edie McClurg",
+            "Charlie Sheen",
+            "Ben Stein",
+            "Del Close",
+            "Virginia Capers",
+            "Richard Edson",
+            "Larry Flash Jenkins",
+            "Kristy Swanson"
+        ],
+        "genre": [
+            "Comedy"
+        ],
+        "tagline": "Because life is too beautiful a thing to waste.",
+        "description": "A high school wise guy is determined to have a day off from school, despite what the Principal thinks of that.",
+        "directors": [
+            "John Hughes"
+        ],
+        "runtime": "103 min",
+        "imdb_url": "https://www.imdb.com/title/tt0091042/"
+    },
+    {
+        "title": "Cape Fear",
+        "rating": "R",
+        "year": "1991",
+        "users_rating": "7.3",
+        "votes": "165,628",
+        "metascore": "73",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BNjdhNzZlYzYtYTBlNS00NTJiLWI2ZWUtMDI2YzI2MzM5NjY4XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Robert De Niro",
+            "Nick Nolte",
+            "Jessica Lange",
+            "Juliette Lewis",
+            "Joe Don Baker",
+            "Robert Mitchum",
+            "Gregory Peck",
+            "Martin Balsam",
+            "Illeana Douglas",
+            "Fred Thompson",
+            "Zully Montero",
+            "Craig Henne",
+            "Forest Burton",
+            "Edgar Allan Poe IV",
+            "Rod Ball"
+        ],
+        "genre": [
+            "Crime",
+            "Thriller"
+        ],
+        "tagline": "There is nothing in the dark that isn't there in the light. Except fear.",
+        "description": "A convicted rapist, released from prison after serving a fourteen-year sentence, stalks the family of the lawyer who originally defended him.",
+        "directors": [
+            "Martin Scorsese"
+        ],
+        "runtime": "128 min",
+        "imdb_url": "https://www.imdb.com/title/tt0101540/"
+    },
+    {
+        "title": "Mean Girls",
+        "rating": "PG-13",
+        "year": "2004",
+        "users_rating": "7.0",
+        "votes": "320,492",
+        "metascore": "66",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA",
+            "Canada"
+        ],
+        "languages": [
+            "English",
+            "German",
+            "Vietnamese",
+            "Swahili"
+        ],
+        "actors": [
+            "Lindsay Lohan",
+            "Rachel McAdams",
+            "Tina Fey",
+            "Tim Meadows",
+            "Amy Poehler",
+            "Ana Gasteyer",
+            "Lacey Chabert",
+            "Lizzy Caplan",
+            "Daniel Franzese",
+            "Neil Flynn",
+            "Jonathan Bennett",
+            "Amanda Seyfried",
+            "Rajiv Surendra",
+            "Elana Shilling",
+            "Graham Kartna"
+        ],
+        "genre": [
+            "Comedy"
+        ],
+        "tagline": "Survival of the Ruthless",
+        "description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+        "directors": [
+            "Mark Waters"
+        ],
+        "runtime": "97 min",
+        "imdb_url": "https://www.imdb.com/title/tt0377092/"
+    },
+    {
+        "title": "Gretel & Hansel",
+        "rating": "PG-13",
+        "year": "2020",
+        "users_rating": "5.3",
+        "votes": "15,051",
+        "metascore": "64",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BOTIyYWJjZDctODY4OC00NWExLWE2NTktZmY0MWY2YWZjMWIxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "Canada",
+            "Ireland",
+            "USA",
+            "South Africa"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Sophia Lillis",
+            "Samuel Leakey",
+            "Alice Krige",
+            "Jessica De Gouw",
+            "Fiona O'Shaughnessy",
+            "Donncha Crowley",
+            "Jonathan Gunning",
+            "Charles Babalola",
+            "Giulia Doherty",
+            "Jonathan Delaney Tynan",
+            "Darlene Garr",
+            "Melody Carrillo",
+            "Nessa Last",
+            "Harry O'Cualach\u00e1in"
+        ],
+        "genre": [
+            "Fantasy",
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "tagline": "Follow the crumbs.",
+        "description": "A long time ago in a distant fairy tale countryside, a young girl leads her little brother into a dark wood in desperate search of food and work, only to stumble upon a nexus of terrifying evil.",
+        "directors": [
+            "Oz Perkins"
+        ],
+        "runtime": "87 min",
+        "imdb_url": "https://www.imdb.com/title/tt9086228/"
+    },
+    {
+        "title": "Jurassic World: Fallen Kingdom",
+        "rating": "PG-13",
+        "year": "2018",
+        "users_rating": "6.2",
+        "votes": "250,190",
+        "metascore": "51",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BNzIxMjYwNDEwN15BMl5BanBnXkFtZTgwMzk5MDI3NTM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Russian"
+        ],
+        "actors": [
+            "Chris Pratt",
+            "Bryce Dallas Howard",
+            "Rafe Spall",
+            "Justice Smith",
+            "Daniella Pineda",
+            "James Cromwell",
+            "Toby Jones",
+            "Ted Levine",
+            "Jeff Goldblum",
+            "BD Wong",
+            "Geraldine Chaplin",
+            "Isabella Sermon",
+            "Robert Emms",
+            "Peter Jason",
+            "Kevin Layne"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "tagline": "Off the Island. Into your Home.",
+        "description": "When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
+        "directors": [
+            "J.A. Bayona"
+        ],
+        "runtime": "128 min",
+        "imdb_url": "https://www.imdb.com/title/tt4881806/"
+    },
+    {
+        "title": "The Avengers",
+        "rating": "PG-13",
+        "year": "2012",
+        "users_rating": "8.0",
+        "votes": "1,233,746",
+        "metascore": "69",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Russian",
+            "Hindi"
+        ],
+        "actors": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Chris Hemsworth",
+            "Scarlett Johansson",
+            "Jeremy Renner",
+            "Tom Hiddleston",
+            "Clark Gregg",
+            "Cobie Smulders",
+            "Stellan Skarsg\u00e5rd",
+            "Samuel L. Jackson",
+            "Gwyneth Paltrow",
+            "Paul Bettany",
+            "Alexis Denisof",
+            "Tina Benko"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "tagline": "Avengers Assemble!",
+        "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "directors": [
+            "Joss Whedon"
+        ],
+        "runtime": "143 min",
+        "imdb_url": "https://www.imdb.com/title/tt0848228/"
+    },
+    {
+        "title": "Good Will Hunting",
+        "rating": "R",
+        "year": "1997",
+        "users_rating": "8.3",
+        "votes": "826,970",
+        "metascore": "70",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Matt Damon",
+            "Ben Affleck",
+            "Stellan Skarsg\u00e5rd",
+            "John Mighton",
+            "Rachel Majorowski",
+            "Colleen McCauley",
+            "Casey Affleck",
+            "Cole Hauser",
+            "Matt Mercier",
+            "Ralph St. George",
+            "Rob Lynds",
+            "Dan Washington",
+            "Alison Folland",
+            "Derrick Bridgeman",
+            "Vik Sahay"
+        ],
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "tagline": "Wildly charismatic. Impossibly brilliant. Totally rebellious. For the first 20 years of his life, Will Hunting has called the shots. Now he's about to meet his match.",
+        "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
+        "directors": [
+            "Gus Van Sant"
+        ],
+        "runtime": "126 min",
+        "imdb_url": "https://www.imdb.com/title/tt0119217/"
+    },
+    {
+        "title": "2001: A Space Odyssey",
+        "rating": "G",
+        "year": "1968",
+        "users_rating": "8.3",
+        "votes": "580,491",
+        "metascore": "84",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "UK",
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Russian"
+        ],
+        "actors": [
+            "Keir Dullea",
+            "Gary Lockwood",
+            "William Sylvester",
+            "Daniel Richter",
+            "Leonard Rossiter",
+            "Margaret Tyzack",
+            "Robert Beatty",
+            "Sean Sullivan",
+            "Douglas Rain",
+            "Frank Miller",
+            "Bill Weston",
+            "Ed Bishop",
+            "Glenn Beck",
+            "Alan Gifford",
+            "Ann Gillis"
+        ],
+        "genre": [
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "tagline": "50 Years Ago One Movie Changed All Movies Forever [2018 Re-release]",
+        "description": "After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer H.A.L. 9000.",
+        "directors": [
+            "Stanley Kubrick"
+        ],
+        "runtime": "149 min",
+        "imdb_url": "https://www.imdb.com/title/tt0062622/"
+    },
+    {
+        "title": "Scarface",
+        "rating": "R",
+        "year": "1983",
+        "users_rating": "8.3",
+        "votes": "712,283",
+        "metascore": "65",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "actors": [
+            "Al Pacino",
+            "Steven Bauer",
+            "Michelle Pfeiffer",
+            "Mary Elizabeth Mastrantonio",
+            "Robert Loggia",
+            "Miriam Colon",
+            "F. Murray Abraham",
+            "Paul Shenar",
+            "Harris Yulin",
+            "\u00c1ngel Salazar",
+            "Arnaldo Santana",
+            "Pepe Serna",
+            "Michael P. Moran",
+            "Al Israel",
+            "Dennis Holahan"
+        ],
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "tagline": "The world is yours...",
+        "description": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+        "directors": [
+            "Brian De Palma"
+        ],
+        "runtime": "170 min",
+        "imdb_url": "https://www.imdb.com/title/tt0086250/"
+    },
+    {
+        "title": "Dazed and Confused",
+        "rating": "R",
+        "year": "1993",
+        "users_rating": "7.6",
+        "votes": "158,876",
+        "metascore": "78",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Jason London",
+            "Joey Lauren Adams",
+            "Milla Jovovich",
+            "Shawn Andrews",
+            "Rory Cochrane",
+            "Adam Goldberg",
+            "Anthony Rapp",
+            "Sasha Jenson",
+            "Marissa Ribisi",
+            "Deena Martin",
+            "Michelle Burke",
+            "Cole Hauser",
+            "Christine Harnos",
+            "Wiley Wiggins",
+            "Mark Vandermeulen"
+        ],
+        "genre": [
+            "Comedy"
+        ],
+        "tagline": "Weed rules.",
+        "description": "The adventures of high school and junior high students on the last day of school in May 1976.",
+        "directors": [
+            "Richard Linklater"
+        ],
+        "runtime": "102 min",
+        "imdb_url": "https://www.imdb.com/title/tt0106677/"
+    },
+    {
+        "title": "Our House",
+        "rating": "PG-13",
+        "year": "2018",
+        "users_rating": "5.3",
+        "votes": "5,563",
+        "metascore": "45",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMzk0MWNkMGItMmNjNC00YThkLThmOGMtMDFmMjUyMTVjZDZiXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "Canada",
+            "Germany",
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "John Ralston",
+            "Thomas Mann",
+            "Percy Hynes White",
+            "Lucius Hoyos",
+            "Allison Hossack",
+            "Kate Moyer",
+            "Nicola Peltz",
+            "Marcia Bennett",
+            "Robert B. Kennedy",
+            "Aaron Hale",
+            "Xavier de Guzman",
+            "Evan Marsh",
+            "Neil Whitely",
+            "Ryan Wilson",
+            "Magda Vasko"
+        ],
+        "genre": [
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "tagline": "Houses Are As Haunted As You Make Them",
+        "description": "A young genius accidentally invents a device that amplifies the paranormal activity within his family's house, possibly bringing back the spirits of loved ones, and unleashing things far worse.",
+        "directors": [
+            "Anthony Scott Burns"
+        ],
+        "runtime": "90 min",
+        "imdb_url": "https://www.imdb.com/title/tt2018069/"
+    },
+    {
+        "title": "Full Metal Jacket",
+        "rating": "R",
+        "year": "1987",
+        "users_rating": "8.3",
+        "votes": "650,539",
+        "metascore": "76",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "UK",
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Vietnamese"
+        ],
+        "actors": [
+            "Matthew Modine",
+            "Adam Baldwin",
+            "Vincent D'Onofrio",
+            "R. Lee Ermey",
+            "Dorian Harewood",
+            "Kevyn Major Howard",
+            "Arliss Howard",
+            "Ed O'Ross",
+            "John Terry",
+            "Kieron Jecchinis",
+            "Kirk Taylor",
+            "Tim Colceri",
+            "Jon Stafford",
+            "Bruce Boa",
+            "Ian Tyler"
+        ],
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "tagline": "Acclaimed by critics as the best war movie ever made",
+        "description": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "directors": [
+            "Stanley Kubrick"
+        ],
+        "runtime": "116 min",
+        "imdb_url": "https://www.imdb.com/title/tt0093058/"
+    },
+    {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "rating": "PG",
+        "year": "2002",
+        "users_rating": "7.4",
+        "votes": "529,173",
+        "metascore": "63",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "UK",
+            "USA",
+            "Germany"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Daniel Radcliffe",
+            "Rupert Grint",
+            "Emma Watson",
+            "Richard Griffiths",
+            "Fiona Shaw",
+            "Harry Melling",
+            "Toby Jones",
+            "Jim Norton",
+            "Veronica Clifford",
+            "James Phelps",
+            "Oliver Phelps",
+            "Julie Walters",
+            "Bonnie Wright",
+            "Mark Williams",
+            "Chris Rankin"
+        ],
+        "genre": [
+            "Adventure",
+            "Family",
+            "Fantasy",
+            "Mystery"
+        ],
+        "tagline": "\"Dobby has come to warn you Sir.\"",
+        "description": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
+        "directors": [
+            "Chris Columbus"
+        ],
+        "runtime": "161 min",
+        "imdb_url": "https://www.imdb.com/title/tt0295297/"
+    },
+    {
+        "title": "Gran Torino",
+        "rating": "R",
+        "year": "2008",
+        "users_rating": "8.1",
+        "votes": "701,410",
+        "metascore": "72",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMTc5NTk2OTU1Nl5BMl5BanBnXkFtZTcwMDc3NjAwMg@@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "Germany",
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Hmong"
+        ],
+        "actors": [
+            "Clint Eastwood",
+            "Christopher Carley",
+            "Bee Vang",
+            "Ahney Her",
+            "Brian Haley",
+            "Geraldine Hughes",
+            "Dreama Walker",
+            "Brian Howe",
+            "John Carroll Lynch",
+            "William Hill",
+            "Brooke Chia Thao",
+            "Chee Thao",
+            "Choua Kue",
+            "Scott Eastwood",
+            "Xia Soua Chang"
+        ],
+        "genre": [
+            "Drama"
+        ],
+        "tagline": null,
+        "description": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",
+        "directors": [
+            "Clint Eastwood"
+        ],
+        "runtime": "116 min",
+        "imdb_url": "https://www.imdb.com/title/tt1205489/"
+    },
+    {
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "rating": "R",
+        "year": "2017",
+        "users_rating": "8.2",
+        "votes": "401,685",
+        "metascore": "88",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "UK",
+            "USA"
+        ],
+        "languages": [
+            "English"
+        ],
+        "actors": [
+            "Frances McDormand",
+            "Caleb Landry Jones",
+            "Kerry Condon",
+            "Sam Rockwell",
+            "Alejandro Barrios",
+            "Jason Ledford",
+            "Darrell Britt-Gibson",
+            "Woody Harrelson",
+            "Abbie Cornish",
+            "Riya May Atwood",
+            "Selah Atwood",
+            "Lucas Hedges",
+            "Zeljko Ivanek",
+            "Amanda Warren",
+            "Malaya Rivera Drew"
+        ],
+        "genre": [
+            "Comedy",
+            "Crime",
+            "Drama"
+        ],
+        "tagline": null,
+        "description": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
+        "directors": [
+            "Martin McDonagh"
+        ],
+        "runtime": "115 min",
+        "imdb_url": "https://www.imdb.com/title/tt5027774/"
+    },
+    {
+        "title": "Cast Away",
+        "rating": "PG-13",
+        "year": "2000",
+        "users_rating": "7.8",
+        "votes": "504,512",
+        "metascore": "73",
+        "img_url": "https://m.media-amazon.com/images/M/MV5BN2Y5ZTU4YjctMDRmMC00MTg4LWE1M2MtMjk4MzVmOTE4YjkzXkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+        "countries": [
+            "USA"
+        ],
+        "languages": [
+            "English",
+            "Russian"
+        ],
+        "actors": [
+            "Paul Sanchez",
+            "Lari White",
+            "Leonid Citer",
+            "David Allen Brooks",
+            "Yelena Popovic",
+            "Valentina Ananina",
+            "Semion Sudarikov",
+            "Tom Hanks",
+            "Peter Von Berg",
+            "Dmitri S. Boudrine",
+            "Fran\u00e7ois Duhamel",
+            "Michael Forest",
+            "Viveka Davis",
+            "Nick Searcy",
+            "Jennifer Choe"
+        ],
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Romance"
+        ],
+        "tagline": "At the edge of the world, his journey begins.",
+        "description": "A FedEx executive undergoes a physical and emotional transformation after crash landing on a deserted island.",
+        "directors": [
+            "Robert Zemeckis"
+        ],
+        "runtime": "143 min",
+        "imdb_url": "https://www.imdb.com/title/tt0162222/"
+    }
+]
