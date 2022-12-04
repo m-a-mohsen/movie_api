@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <h1>API documentation</h1>
+    <h1>Movies API documentation</h1>
     <h2>Endpoints</h2>
     <ol>
         <li></li>
@@ -47,7 +47,37 @@
                 </tr>
             </tbody>
         </table>
-
+        <li></li>
+        <table class="table table-bordered table-dark table-striped table-hover table-responsive w-75">
+            <tbody>
+                <tr>
+                    <td class="w-25">Description</td>
+                    <td class="w-75">Return a list of ALL users to the user</td>
+                </tr>
+                <tr>
+                    <td>The endpoint URL</td>
+                    <td>localhost:8080/users</td>
+                </tr>
+                <tr>
+                    <td>Method</td>
+                    <td><strong class="text-danger">GET</strong></td>
+                </tr>
+                <tr>
+                    <td>Query parameters</td>
+                    <td>-</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>request data format</td>
+                    <td>-</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>response data format</td>
+                    <td>JSON</td>
+                </tr>
+            </tbody>
+        </table>
         <li></li>
             <table class="table table-bordered table-dark table-striped table-hover table-responsive w-75">
                 <tbody>
@@ -79,10 +109,99 @@
                     </tr>
                 </tbody>
             </table>
-        
-        <li><s>Return data about a genre (description) by name/title (e.g., “Thriller”)--- no data available</s></li>
-        <li><s>Return data about a director (bio, birth year, death year) by name--- no data available</s></li>
-
+            <li></li>
+            <table class="table table-bordered table-dark table-striped table-hover table-responsive w-75">
+                <tbody>
+                    <tr>
+                        <td class="w-25">Description</td>
+                        <td class="w-75">Return user data by username to the user</td>
+                    </tr>
+                    <tr>
+                        <td>The endpoint URL</td>
+                        <td>localhost:8080/user/:username</td>
+                    </tr>
+                    <tr>
+                        <td>Method</td>
+                        <td><strong class="text-danger">GET</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Query parameters</td>
+                        <td>username</td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>request data format</td>
+                        <td>-</td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>response data format</td>
+                        <td>JSON</td>
+                    </tr>
+                </tbody>
+            </table>        
+        <li></li>
+        <table class="table table-bordered table-dark table-striped table-hover table-responsive w-75">
+            <tbody>
+                <tr>
+                    <td class="w-25">Description</td>
+                    <td class="w-75">Return data about a genre (description) by name/title (e.g., “Thriller”)</td>
+                </tr>
+                <tr>
+                    <td>The endpoint URL</td>
+                    <td>localhost:8080/movies/genre/:GenreTitle</td>
+                </tr>
+                <tr>
+                    <td>Method</td>
+                    <td><strong class="text-danger">GET</strong></td>
+                </tr>
+                <tr>
+                    <td>Query parameters</td>
+                    <td>GenreTitle</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>request data format</td>
+                    <td>-</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>response data format</td>
+                    <td>String</td>
+                </tr>
+            </tbody>
+        </table>
+        <li></li>
+        <table class="table table-bordered table-dark table-striped table-hover table-responsive w-75">
+            <tbody>
+                <tr>
+                    <td class="w-25">Description</td>
+                    <td class="w-75">Return data about a director (bio, birth year, death year) by name</td>
+                </tr>
+                <tr>
+                    <td>The endpoint URL</td>
+                    <td>localhost:8080/movies/director/:DirectorName</td>
+                </tr>
+                <tr>
+                    <td>Method</td>
+                    <td><strong class="text-danger">GET</strong></td>
+                </tr>
+                <tr>
+                    <td>Query parameters</td>
+                    <td>DirectorName</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>request data format</td>
+                    <td>-</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>response data format</td>
+                    <td>JSON</td>
+                </tr>
+            </tbody>
+        </table>
         <li></li>
             <table class="table table-bordered table-dark table-striped table-hover table-responsive w-75">
                 <tbody>
@@ -105,7 +224,12 @@
                     </tr>
                     <tr>
                         <td>request data format</td>
-                        <td>JSON , should have name and favoriteMovies properties</td>
+                        <td>{
+                            "UserName" : "user",
+                            "Password": "pass",
+                            "Email": "user@use.mo",
+                            "Birthday": "yyyy-mm-dd"
+                            }</td>
                     </tr>
                     </tr>
                     <tr>
@@ -125,7 +249,7 @@
                 </tr>
                 <tr>
                     <td>The endpoint URL</td>
-                    <td>localhost:8080/users/:name</td>
+                    <td>localhost:8080/users/:UserName</td>
                 </tr>
                 <tr>
                     <td>Method</td>
@@ -138,7 +262,12 @@
                 </tr>
                 <tr>
                     <td>request data format</td>
-                    <td>JSON , should have name and favoriteMovies properties</td>
+                    <td>   {
+                        "UserName" : "user01",
+                        "Password": "pass",
+                        "Email": "user@use.mo",
+                        "Birthday": "yyyy-mm-dd"
+                        }</td>
                 </tr>
                 </tr>
                 <tr>
@@ -156,7 +285,7 @@
                 </tr>
                 <tr>
                     <td>The endpoint URL</td>
-                    <td>localhost:8080/users/:id/:movieTitle</td>
+                    <td>localhost:8080/users/:UserName/:movieID</td>
                 </tr>
                 <tr>
                     <td>Method</td>
@@ -187,7 +316,7 @@
                 </tr>
                 <tr>
                     <td>The endpoint URL</td>
-                    <td>localhost:8080/users/:id/:movieTitle</td>
+                    <td>localhost:8080/users/:UserName/:movieID</td>
                 </tr>
                 <tr>
                     <td>Method</td>
@@ -205,7 +334,7 @@
                 </tr>
                 <tr>
                     <td>response data format</td>
-                    <td>String</td>
+                    <td>JSON</td>
                 </tr>
             </tbody>
         </table>       
@@ -218,7 +347,7 @@
                 </tr>
                 <tr>
                     <td>The endpoint URL</td>
-                    <td>localhost:8080/users/:id</td>
+                    <td>localhost:8080/users/:UserName</td>
                 </tr>
                 <tr>
                     <td>Method</td>
