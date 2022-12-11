@@ -1,9 +1,6 @@
 // imports
 require('dotenv').config();
 const express = require("express");
-const morgan = require("morgan");
-// const bodyParser = require("body-parser");
-const uuid = require("uuid");
 const mongoose = require("mongoose");
 const passport = require("passport");
 const cors = require("cors");
@@ -39,7 +36,6 @@ const auth = require("./auth")(app);
 require("./passport");
 
 app.use(express.static("public"));
-app.use(morgan("common"));
 
 // --------------GET requests--------------------
 
