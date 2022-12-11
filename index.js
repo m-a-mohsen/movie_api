@@ -20,7 +20,8 @@ app.listen(8080, () => {
 const Movies = Models.Movie;
 const Users = Models.User;
 
-mongoose.connect("mongodb://localhost:27017/movies_api", {
+// mongoose.connect("mongodb://localhost:27017/movies_api", {
+mongoose.connect("mongodb+srv://admin:admin@movies-app.afa2czi.mongodb.net/sample_mflix", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
