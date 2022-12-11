@@ -1,5 +1,5 @@
 // imports
-require('dotenv').config();
+require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const passport = require("passport");
@@ -20,7 +20,7 @@ app.listen(8080, () => {
 const Movies = Models.Movie;
 const Users = Models.User;
 console.log(process.env.CONNECTION_URI);
-console.log(typeof(process.env.CONNECTION_URI));
+console.log(typeof process.env.CONNECTION_URI);
 // mongoose.connect("mongodb://localhost:27017/movies_api", {
 // mongoose.connect("mongodb+srv://admin:admin@movies-app.afa2czi.mongodb.net/sample_mflix", {
 mongoose.connect(process.env.CONNECTION_URI, {
@@ -106,20 +106,24 @@ app.get("/movies/director/:DirectorName", (req, res) => {
 });
 // -------------------Create-------------------
 
-app.post('/users',
+app.post(
+  "/users",
   // Validation logic here for request
-  //you can either use a chain of methods like .not().isEmpty()
-  //which means "opposite of isEmpty" in plain english "is not empty"
-  //or use .isLength({min: 5}) which means
-  //minimum value of 5 characters are only allowed
+  // you can either use a chain of methods like .not().isEmpty()
+  // which means "opposite of isEmpty" in plain english "is not empty"
+  // or use .isLength({min: 5}) which means
+  // minimum value of 5 characters are only allowed
   [
-    check('Username', 'Username is required').isLength({min: 5}),
-    check('Username', 'Username contains non alphanumeric characters - not allowed.').isAlphanumeric(),
-    check('Password', 'Password is required').not().isEmpty(),
-    check('Email', 'Email does not appear to be valid').isEmail()
-  ], (req, res) => {
-
-  // check the validation object for errors
+    check("Username", "Username is required").isLength({ min: 5 }),
+    check(
+      "Username",
+      "Username contains non alphanumeric characters - not allowed."
+    ).isAlphanumeric(),
+    check("Password", "Password is required").not().isEmpty(),
+    check("Email", "Email does not appear to be valid").isEmail(),
+  ],
+  (req, res) => {
+    // check the validation object for errors
     let errors = validationResult(req);
 
     if (!errors.isEmpty()) {
@@ -130,28 +134,30 @@ app.post('/users',
     Users.findOne({ Username: req.body.Username }) // Search to see if a user with the requested username already exists
       .then((user) => {
         if (user) {
-          //If the user is found, send a response that it already exists
-          return res.status(400).send(req.body.Username + ' already exists');
+          // If the user is found, send a response that it already exists
+          return res.status(400).send(req.body.Username + " already exists");
         } else {
-          Users
-            .create({
-              Username: req.body.Username,
-              Password: hashedPassword,
-              Email: req.body.Email,
-              Birthday: req.body.Birthday
+          Users.create({
+            Username: req.body.Username,
+            Password: hashedPassword,
+            Email: req.body.Email,
+            Birthday: req.body.Birthday,
+          })
+            .then((user) => {
+              res.status(201).json(user);
             })
-            .then((user) => { res.status(201).json(user) })
             .catch((error) => {
               console.error(error);
-              res.status(500).send('Error: ' + error);
+              res.status(500).send("Error: " + error);
             });
         }
       })
       .catch((error) => {
         console.error(error);
-        res.status(500).send('Error: ' + error);
+        res.status(500).send("Error: " + error);
       });
-  });
+  }
+);
 // -------------------Update-------------------
 
 app.put("/users/:UserName", (req, res) => {
