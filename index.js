@@ -5,7 +5,10 @@ const morgan = require("morgan");
 const uuid = require("uuid");
 const mongoose = require("mongoose");
 const passport = require("passport");
+const cors = require("cors");
+const { check, validationResult } = require("express-validator");
 const Models = require("./models");
+
 // --- Express ----
 // app initialization
 const app = express();
@@ -25,6 +28,7 @@ mongoose.connect("mongodb://localhost:27017/movies_api", {
 });
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const auth = require("./auth")(app);
