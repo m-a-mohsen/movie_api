@@ -1,7 +1,5 @@
 {
     "cSpell.words": [
         "IMDB"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/6ed99eda-520d-432a-be07-5b0a8d7fb723/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/cfmovieapp2",
-    "appService.deploySubpath": "."
+    ]
 }
