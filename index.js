@@ -1,6 +1,6 @@
 // imports
+require('dotenv').config();
 const express = require("express");
-const morgan = require("morgan");
 const mongoose = require("mongoose");
 const passport = require("passport");
 const cors = require("cors");
@@ -19,9 +19,11 @@ app.listen(8080, () => {
 // ---- Mongoose ----
 const Movies = Models.Movie;
 const Users = Models.User;
-
+console.log(process.env.CONNECTION_URI);
+console.log(typeof(process.env.CONNECTION_URI));
 // mongoose.connect("mongodb://localhost:27017/movies_api", {
-mongoose.connect("mongodb+srv://admin:admin@movies-app.afa2czi.mongodb.net/sample_mflix", {
+// mongoose.connect("mongodb+srv://admin:admin@movies-app.afa2czi.mongodb.net/sample_mflix", {
+mongoose.connect(process.env.CONNECTION_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -34,7 +36,6 @@ const auth = require("./auth")(app);
 require("./passport");
 
 app.use(express.static("public"));
-app.use(morgan("common"));
 
 // --------------GET requests--------------------
 
