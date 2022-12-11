@@ -108,6 +108,7 @@ app.get("/movies/director/:DirectorName", (req, res) => {
 
 app.post("/users", (req, res) => {
   Users.findOne({ Username: req.body.Username })
+    // eslint-disable-next-line consistent-return
     .then((user) => {
       if (user) {
         return res.status(400).send(`${req.body.Username}already exists`);
@@ -118,6 +119,7 @@ app.post("/users", (req, res) => {
         Email: req.body.Email,
         Birthday: req.body.Birthday,
       })
+        // eslint-disable-next-line no-shadow
         .then((user) => {
           res.status(201).json(user);
         })
