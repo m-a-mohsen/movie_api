@@ -19,9 +19,17 @@ This is a the a combined solution for the third achievement in fullstack Server-
 
 ### The challenge
 
-Users should be able to:
+Essential Features
 
-- See hover states for interactive elements
+- Return a list of ALL movies to the user
+- Return data (description, genre, director, image URL, whether it’s featured or not) about a single movie by title to the user.
+- Return data about a genre (description) by name/title (e.g., “Thriller”).
+- Return data about a director (bio, birth year, death year) by name.
+- Allow new users to register.
+- Allow users to update their user info (username, password, email, date of birth).
+- Allow users to add a movie to their list of favorites.
+- Allow users to remove a movie from their list of favorites.
+- Allow existing users to deregister.
 
 ### Screenshot
 
@@ -33,13 +41,20 @@ Users should be able to:
 <!-- [![My Skills](https://skillicons.dev/icons?i=vscode,js,nodejs,html,css,bootstrap,mongo,express,bash,git,github)](https://skillicons.dev) -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,js,nodejs,html,css,bootstrap,mongo,express,bash,git,github" />
+    <img src="https://skillicons.dev/icons?i=vscode,js,nodejs,html,css,bootstrap,mongo,express,bash,git,github,azure,githubactions" />
   </a>
 </p>
 
+### Additional tools
+
+- Eslint.
+- Markdownlint.
+- Airbnb style guid.
+- Postman.
+
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This achievement was a big dive in backend stack. I have learned about servers, networking, security, deployment and databases. I was surprised that all pieces finally worked together. Developing a backend service sill seems fragile to me; it can break with any small mistake. Below are some of the the things that i learned during the achievement
 
 To see how you can add code snippets, see below:
 
@@ -68,15 +83,11 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Database seems important topic worth investing additional efforts in next project.
+- Git / Github skills has to be improved.
+- eslint / prettier configurations can be optimized.
 
 ### Useful resources
 
