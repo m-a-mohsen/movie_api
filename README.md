@@ -1,7 +1,7 @@
 
 # CareerFoundry - Server-Side Programming & Node.js
 
-This is a the a combined solution for the third achievement in fullstack Server-Side Programming & Node.js.
+This is a combined solution for the third achievement in fullstack Server-Side Programming & Node.js.
 
 ## Table of contents
 
