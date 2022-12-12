@@ -43,9 +43,9 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-#### Mongo instlation on Ubuntu 22.04 Jammy
+#### Mongo installation on Ubuntu 22.04 Jammy
 
-there was now direct instalation method for lts 22.04, instalation script was found on [Mongodb fourum](https://www.mongodb.com/community/forums/t/installing-mongodb-over-ubuntu-22-04/159931/89)
+there was now direct installation method for lts 22.04, installation script was found on [Mongodb forum](https://www.mongodb.com/community/forums/t/installing-mongodb-over-ubuntu-22-04/159931/89)
 
 ```bash
 wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc |  gpg --dearmor | sudo tee /usr/share/keyrings/mongodb.gpg > /dev/null
