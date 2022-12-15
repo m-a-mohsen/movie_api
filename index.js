@@ -44,18 +44,14 @@ app.get("/", (req, res) => {
 });
 
 // Return a list of ALL movies to the user;
-app.get(
-  "/movies",
-  passport.authenticate("jwt", { session: false }),
-  (req, res) => {
-    Movies.find()
-      .then((movies) => res.json(movies))
-      .catch((err) => {
-        console.log(err);
-        res.status(500).send(`Error : ${err}`);
-      });
-  }
-);
+app.get("/movies", (req, res) => {
+  Movies.find()
+    .then((movies) => res.json(movies))
+    .catch((err) => {
+      console.log(err);
+      res.status(500).send(`Error : ${err}`);
+    });
+});
 
 // Return a list of ALL users to the user;
 app.get(
