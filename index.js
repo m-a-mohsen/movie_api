@@ -44,7 +44,10 @@ app.get("/", (req, res) => {
 });
 
 // Return a list of ALL movies to the user;
-app.get("/movies", (req, res) => {
+app.get(
+  "/movies",
+  passport.authenticate("jwt", { session: false }),
+  (req, res) => {
   Movies.find().limit(20) // hard coded limit
     .then((movies) => res.json(movies))
     .catch((err) => {
