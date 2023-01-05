@@ -48,7 +48,7 @@ app.get(
   "/movies",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
-  Movies.find().limit(20) // hard coded limit
+  Movies.find().limit(100) // hard coded limit
     .then((movies) => res.json(movies))
     .catch((err) => {
       console.log(err);
