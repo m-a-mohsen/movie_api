@@ -48,13 +48,15 @@ app.get(
   "/movies",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
-  Movies.find().limit(100) // hard coded limit
-    .then((movies) => res.json(movies))
-    .catch((err) => {
-      console.log(err);
-      res.status(500).send(`Error : ${err}`);
-    });
-});
+    Movies.find()
+      .limit(100) // hard coded limit
+      .then((movies) => res.json(movies))
+      .catch((err) => {
+        console.log(err);
+        res.status(500).send(`Error : ${err}`);
+      });
+  }
+);
 
 // Return a list of ALL users to the user;
 app.get(
@@ -210,7 +212,7 @@ app.put(
 // Allow users to add a movie to their list of favorites (showing only a text that a movie has been added—more on this later)
 
 app.post(
-  "/users/:UserName/:MovieID",
+  "/users/:Username/:MovieID",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
@@ -236,7 +238,7 @@ app.post(
 // Allow users to {remove} a movie from their list of favorites (showing only a text that a movie has been removed—more on this later);
 
 app.delete(
-  "/users/:UserName/:MovieID",
+  "/users/:Username/:MovieID",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
