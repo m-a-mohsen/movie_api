@@ -211,7 +211,7 @@ app.put(
 
 app.post(
   "/users/:UserName/:MovieID",
-  passport.authenticate("jwt", { session: false }),
+//   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
       { UserName: req.params.UserName },
@@ -237,7 +237,7 @@ app.post(
 
 app.delete(
   "/users/:UserName/:MovieID",
-  passport.authenticate("jwt", { session: false }),
+//   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
       { UserName: req.params.UserName },
