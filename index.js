@@ -83,12 +83,12 @@ app.get(
       });
   }
 );
-// Return user data by username to the user;
+// Return user data by Username to the user;
 app.get(
-  "/users/:username",
+  "/users/:Username",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
-    Users.findOne({ userName: req.params.username })
+    Users.findOne({ Username: req.params.Username })
       .then((user) => res.json(user))
       .catch((err) => {
         console.error(err);
@@ -151,7 +151,7 @@ app.post(
     }
 
     const hashedPassword = Users.hashPassword(req.body.Password);
-    Users.findOne({ Username: req.body.Username }) // Search to see if a user with the requested username already exists
+    Users.findOne({ Username: req.body.Username }) // Search to see if a user with the requested Username already exists
       // eslint-disable-next-line consistent-return
       .then((user) => {
         if (user) {
@@ -182,14 +182,14 @@ app.post(
 // -------------------Update-------------------
 
 app.put(
-  "/users/:UserName",
+  "/users/:Username",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
-      { UserName: req.params.UserName },
+      { Username: req.params.Username },
       {
         $set: {
-          UserName: req.body.UserName,
+          Username: req.body.Username,
           Password: req.body.Password,
           Email: req.body.Email,
           Birthday: req.body.Birthday,
@@ -211,11 +211,11 @@ app.put(
 // Allow users to add a movie to their list of favorites (showing only a text that a movie has been added—more on this later)
 
 app.post(
-  "/users/:UserName/:MovieID",
+  "/users/:Username/:MovieID",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
-      { UserName: req.params.UserName },
+      { Username: req.params.Username },
       {
         $push: { FavoriteMovies: req.params.MovieID },
       },
@@ -237,11 +237,11 @@ app.post(
 // Allow users to {remove} a movie from their list of favorites (showing only a text that a movie has been removed—more on this later);
 
 app.delete(
-  "/users/:UserName/:MovieID",
+  "/users/:Username/:MovieID",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Users.findOneAndUpdate(
-      { UserName: req.params.UserName },
+      { Username: req.params.Username },
       {
         $pull: { FavoriteMovies: req.params.MovieID },
       },
@@ -260,17 +260,17 @@ app.delete(
 
 // Allow existing users to deregister (showing only a text that a user email has been removed—more on this later).
 
-// Delete a user by username
+// Delete a user by Username
 app.delete(
-  "/users/:UserName",
+  "/users/:Username",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
-    Users.findOneAndRemove({ Username: req.params.UserName })
+    Users.findOneAndRemove({ Username: req.params.Username })
       .then((user) => {
         if (!user) {
-          res.status(400).send(`${req.params.UserName} was not found`);
+          res.status(400).send(`${req.params.Username} was not found`);
         } else {
-          res.status(200).send(`${req.params.UserName} was deleted.`);
+          res.status(200).send(`${req.params.Username} was deleted.`);
         }
       })
       .catch((err) => {
