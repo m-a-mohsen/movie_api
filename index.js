@@ -27,7 +27,11 @@ mongoose.connect(process.env.CONNECTION_URI, {
 });
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // eslint-disable-next-line no-unused-vars
