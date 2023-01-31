@@ -29,7 +29,7 @@ mongoose.connect(process.env.CONNECTION_URI, {
 // Middleware
 app.use(
   cors({
-    origin: "http://127.0.0.1:1234",
+    origin: "http://localhost:1234",
   })
 );
 app.use(express.json());
