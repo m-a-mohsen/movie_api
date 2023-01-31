@@ -30,6 +30,7 @@ mongoose.connect(process.env.CONNECTION_URI, {
 app.use(
   cors({
     origin: "http://localhost:1234",
+    credentials: true,
   })
 );
 app.use(express.json());
